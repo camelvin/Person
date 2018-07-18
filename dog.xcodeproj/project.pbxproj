@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F06C2BF320FE582400B6F2AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C2BF220FE582400B6F2AE /* main.m */; };
+		F06C2BFB20FE589400B6F2AE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C2BFA20FE589400B6F2AE /* Person.m */; };
+		F06C2C0120FEB51A00B6F2AE /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C2C0020FEB51A00B6F2AE /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		F06C2BEF20FE582400B6F2AE /* dog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dog; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06C2BF220FE582400B6F2AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F06C2BF920FE589400B6F2AE /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F06C2BFA20FE589400B6F2AE /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F06C2BFF20FEB51A00B6F2AE /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		F06C2C0020FEB51A00B6F2AE /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		F06C2BF120FE582400B6F2AE /* dog */ = {
 			isa = PBXGroup;
 			children = (
+				F06C2BF920FE589400B6F2AE /* Person.h */,
+				F06C2BFA20FE589400B6F2AE /* Person.m */,
 				F06C2BF220FE582400B6F2AE /* main.m */,
+				F06C2BFF20FEB51A00B6F2AE /* Dog.h */,
+				F06C2C0020FEB51A00B6F2AE /* Dog.m */,
 			);
 			path = dog;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F06C2C0120FEB51A00B6F2AE /* Dog.m in Sources */,
+				F06C2BFB20FE589400B6F2AE /* Person.m in Sources */,
 				F06C2BF320FE582400B6F2AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
