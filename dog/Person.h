@@ -13,12 +13,13 @@
 @interface Person : NSObject
 @property NSString *name;
 @property Dog *pet;
+@property(readonly)NSDate *dateOfBirth;
 
 
 -(void)pnameMethod;
 -(void)petTypeMethod:(NSString*)Dog;
-
-
+-(id)initWithPersonName:(NSString *)pn;
+-(id)initwithbirth:(NSDate *)dob;
 
 
 
